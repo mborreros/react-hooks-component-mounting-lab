@@ -9,16 +9,12 @@ class App extends Component {
     timerIDs: []
   }
 
+  // write a componentDidMount method that invokes the existing handleAddTimer class method.
 
   //Your code here:
-
-
-
-
-
-
-
-
+  componentDidMount() {
+    this.handleAddTimer()
+  }
 
   // No need to modify anything in render or the class methods below
   // Unless, of course, you're curious about how it all works
